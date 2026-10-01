@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Appliance Energy Watch | D3</title>
+		<link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header>
+			<a href="televisions.html#home" class="logo-link" id="logo-link">
+				<img src="assets/logo.svg" alt="Power logo" />
+				<span class="site-title">Appliance Energy Watch</span>
+			</a>
+			<nav>
+				<ul id="nav-list">
+					<li><a href="televisions.html#home">Home</a></li>
+					<li><a href="televisions.html#televisions">Televisions</a></li>
+					<li><a href="televisions.html#about">About Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Appliance Energy Consumption</h1>
+		<div id="content"></div>
+		<!-- Give the SVG a size so shapes can be seen -->
+		<svg width="300" height="150"></svg>
+		<!-- Load D3 first, then your D3 code file -->
+		<script src="https://d3js.org/d3.v7.min.js"></script>
+		<script src="energy-d3.js"></script>
+	</body>
+</html>
